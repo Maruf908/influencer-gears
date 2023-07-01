@@ -1,0 +1,113 @@
+body{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    
+}
+/* Section sector  */ 
+
+.container{
+    display: flex;
+    justify-content: center; 
+    margin-top: 50px;
+    
+} 
+.banner-section, .blog-sector, .media-sector{
+   width: 1200px;
+    
+    
+} 
+
+.banner{
+    display: grid; 
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.right{
+    width: 70%;
+}  
+.left{
+    width: 30%;
+}
+.h1-cls{
+    font-size: 45px; 
+    
+} 
+.right p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.preebook{
+    color: white;
+    background-color: #E02C6D; 
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none; 
+    margin-top: 50px;
+} 
+.left img{ 
+   
+    background-color: #ffffff;
+    border: 1px solid grey;
+    border-radius: 50%; 
+    padding: 5px;
+}
+
+/* Media section */
+.media{
+    display: grid;
+    grid-template-columns: repeat(7,1fr); 
+  
+} 
+.media-section{ 
+    margin-top: 50px; 
+    padding: 30px 10px;
+    border: 1.5px solid #C0CCDA;
+    border-left: none;
+    border-right: none;
+}
+.media-name{
+    
+    margin-right: 45px;
+}
+
+/* blog section */  
+.blog-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+}  
+.blog-sector{
+    margin-top: 100px;
+}
+.blogs{  
+    border-radius: 5px;
+   box-shadow: 0px 0px 10px 0px grey; 
+    
+   
+}   
+.popular{
+    font-size: 35px; 
+    margin-bottom: 50px; 
+    font-weight: 700;
+    text-align: center;
+}
+.blog, .star, .writer{
+    margin: 30px;
+}
+.blog img{
+    width: 300px; 
+    height: 256px;
+}
+.fa-star, .fa-star-half-stroke{
+    color: orange;
+} 
+.blog h2, h3{
+    font-size:30px;
+} 
+.see-more{
+    text-align: right;
+    color: #E02C6D;
+}
