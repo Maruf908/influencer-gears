@@ -194,7 +194,7 @@ body{
         margin-top: 50px;
     }
 
-    .banner-section, .blog-sector, .media-sector, .another-banner-section {
+    .banner-section, .blog-sector, .media-sector, .another-banner-section,.footer {
         width: 100%;
          
      }  
@@ -230,7 +230,7 @@ body{
             margin-top: 50px;
         }
     
-        .banner-section, .blog-sector, .media-sector, .another-banner-section {
+        .banner-section, .blog-sector, .media-sector, .another-banner-section, .footer {
             width: 100%;
              
          }  
